@@ -1,5 +1,5 @@
 # Miscellaneous
-# Config file with API keys
+# Only ignore API keys file
 assets/config/main.json
 *.class
 *.log
