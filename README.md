@@ -1,4 +1,4 @@
-# 🎬 Flickd — Movie Discovery App
+# 🎬 Movie  Discovery Application
 
 > A production-ready Flutter application for discovering movies, built with REST API integration and Riverpod state management.
 
@@ -57,8 +57,8 @@ Whether you're a movie buff or a Flutter developer looking for a real-world proj
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/flickd.git
-cd flickd
+git clone https://github.com/monam1083/Movie_Application.git
+cd Movie_Application
 
 # 2. Install dependencies
 flutter pub get
@@ -159,7 +159,6 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 - [TheMovieDB](https://www.themoviedb.org/) for the incredible free API
 - [Flutter Riverpod](https://riverpod.dev/) for powerful state management
-- [Hussain Mustafa](https://www.udemy.com/user/hussain-mustafa/) for the original course
 
 ---
 
