@@ -1,4 +1,6 @@
 # Miscellaneous
+# Config file with API keys
+assets/config/main.json
 *.class
 *.log
 *.pyc
