@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:movie_application/pages/main_page.dart';
 import 'package:movie_application/pages/splash_page.dart';
 
@@ -7,7 +8,7 @@ void main() {
     SplashPage(
       key: UniqueKey(),
       onInitializationComplete: () {
-        runApp(const MyApp());
+        runApp(ProviderScope(child: const MyApp()));
       },
     ),
   );
