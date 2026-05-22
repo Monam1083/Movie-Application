@@ -1,4 +1,8 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:get_it/get_it.dart';
 
 class SplashPage extends StatefulWidget {
   final VoidCallback onInitializationComplete;
@@ -17,6 +21,12 @@ class _SplashPageState extends State<SplashPage> {
     Future.delayed(const Duration(seconds: 3), () {
       widget.onInitializationComplete();
     });
+  }
+
+  Future<void> _setup(BuildContext context) async {
+    final getit = GetIt.instance;
+    final configFile = await rootBundle.loadString("assets/config/main.json");
+    final configData = jsonDecode(configFile);
   }
 
   @override
