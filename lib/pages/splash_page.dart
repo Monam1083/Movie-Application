@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
 class SplashPage extends StatefulWidget {
-  const SplashPage({super.key});
+  final VoidCallback onInitializationComplete;
+
+  const SplashPage({super.key, required this.onInitializationComplete});
 
   @override
   State<SplashPage> createState() => _SplashPageState();
@@ -9,16 +11,22 @@ class SplashPage extends StatefulWidget {
 
 class _SplashPageState extends State<SplashPage> {
   @override
+  void initState() {
+    super.initState();
+
+    Future.delayed(const Duration(seconds: 3), () {
+      widget.onInitializationComplete();
+    });
+  }
+
+  @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: "Flicked",
-      theme: ThemeData(primarySwatch: Colors.blue),
-      home: Center(
+    return Scaffold(
+      body: Center(
         child: Container(
           height: 200,
           width: 200,
-          decoration: BoxDecoration(
+          decoration: const BoxDecoration(
             image: DecorationImage(
               image: AssetImage("assets/images/logo.png"),
               fit: BoxFit.contain,
