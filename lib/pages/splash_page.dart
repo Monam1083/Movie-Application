@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get_it/get_it.dart';
+import 'package:movie_application/models/config.dart';
 
 class SplashPage extends StatefulWidget {
   final VoidCallback onInitializationComplete;
@@ -21,12 +22,20 @@ class _SplashPageState extends State<SplashPage> {
     Future.delayed(const Duration(seconds: 3), () {
       widget.onInitializationComplete();
     });
+    _setup(context).then((_) => widget.onInitializationComplete());
   }
 
   Future<void> _setup(BuildContext context) async {
     final getit = GetIt.instance;
     final configFile = await rootBundle.loadString("assets/config/main.json");
     final configData = jsonDecode(configFile);
+    getit.registerSingleton<AppConfig>(
+      AppConfig(
+        BASE_API_URl: configData("BASE_API_URl"),
+        BASE_IMAGE_URl: configData("BASE_IMAGE_URl"),
+        API_KEY: configData("API_KEY"),
+      ),
+    );
   }
 
   @override

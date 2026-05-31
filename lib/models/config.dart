@@ -1,15 +1,8 @@
 import 'package:flutter/material.dart';
 
-class AppConfig extends StatefulWidget {
-  const AppConfig({super.key});
-
-  @override
-  State<AppConfig> createState() => _AppConfigState();
-}
-
-class _AppConfigState extends State<AppConfig> {
-  @override
-  Widget build(BuildContext context) {
-    return const Placeholder();
-  }
+class AppConfig {
+  final String BASE_API_URl;
+  final String BASE_IMAGE_URl;
+  final String API_KEY;
+  AppConfig({this.BASE_API_URl, this.BASE_IMAGE_URl, this.API_KEY});
 }
