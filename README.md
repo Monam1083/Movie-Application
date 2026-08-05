@@ -53,26 +53,6 @@ Whether you're a movie buff or a Flutter developer looking for a real-world proj
 - A free [TMDB API key](https://www.themoviedb.org/settings/api)
 - VS Code or Android Studio configured for Flutter
 
-### Installation
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/monam1083/Movie_Application.git
-cd Movie_Application
-
-# 2. Install dependencies
-flutter pub get
-
-# 3. Add your TMDB API key
-#    Open lib/core/constants/api_constants.dart and set:
-#    const String apiKey = 'YOUR_TMDB_API_KEY';
-
-# 4. Run the app
-flutter run
-```
-
----
-
 ## 📁 Project Structure
 
 ```
@@ -131,23 +111,6 @@ This app uses the [TMDB REST API v3](https://developers.themoviedb.org/3).
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request.
-
-```bash
-# Fork the project
-# Create your feature branch
-git checkout -b feature/amazing-feature
-
-# Commit your changes
-git commit -m "Add amazing feature"
-
-# Push and open a PR
-git push origin feature/amazing-feature
-```
-
----
 
 ## 📄 License
 
