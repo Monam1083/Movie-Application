@@ -7,7 +7,6 @@ import 'package:movie_application/models/config.dart';
 class SplashPage extends StatefulWidget {
   final VoidCallback onInitializationComplete;
   const SplashPage({super.key, required this.onInitializationComplete});
-
   @override
   State<SplashPage> createState() => _SplashPageState();
 }
