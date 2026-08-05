@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class AppConfig {
+  // ignore: non_constant_identifier_names
   final String BASE_API_URl;
   final String BASE_IMAGE_URl;
   final String API_KEY;
