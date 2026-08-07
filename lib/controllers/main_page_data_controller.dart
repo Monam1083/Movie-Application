@@ -2,6 +2,7 @@ import 'dart:async';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_riverpod/legacy.dart';
 import 'package:get_it/get_it.dart';
+import 'package:movie_application/services/movie_screen.dart';
 import '../models/main_page_data.dart';
 import '../models/movie.dart';
 
