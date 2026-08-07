@@ -7,11 +7,9 @@ import '../models/movie.dart';
 
 class MovieTile extends StatelessWidget {
   final GetIt _getIt = GetIt.instance;
-
   final double? height;
   final double? width;
   final Movie? movie;
-
   MovieTile({this.movie, this.height, this.width});
 
   @override
