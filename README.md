@@ -50,7 +50,7 @@ Whether you're a movie buff or a Flutter developer looking for a real-world proj
 
 - Flutter SDK `>=3.0.0`
 - Dart SDK `>=3.0.0`
-- A free [TMDB API key](https://www.themoviedb.org/settings/api)
+- APi key TMDB
 - VS Code or Android Studio configured for Flutter
 
 ## 📁 Project Structure
