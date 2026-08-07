@@ -10,7 +10,6 @@ class Movie {
   final String? backdropPath;
   final num? rating;
   final String? releaseDate;
-
   Movie({
     this.name,
     this.language,
