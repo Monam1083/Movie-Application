@@ -3,8 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_riverpod/legacy.dart';
 import 'package:movie_application/models/main_page_data.dart';
-
-//Widgets
 import '../widgets/movie_tile.dart';
 
 //Models
