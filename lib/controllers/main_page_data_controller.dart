@@ -4,9 +4,6 @@ import 'package:get_it/get_it.dart';
 import '../models/main_page_data.dart';
 import '../models/movie.dart';
 
-//Services
-import '../services/movie_service.dart';
-
 class MainPageDataController extends StateNotifier<MainPageData> {
   MainPageDataController([MainPageData? state])
     : super(state ?? MainPageData.inital()) {
