@@ -4,8 +4,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_riverpod/legacy.dart';
 import 'package:movie_application/models/main_page_data.dart';
 import '../widgets/movie_tile.dart';
-
-//Models
 import '../models/search_category.dart';
 import '../models/movie.dart';
 import '../controllers/main_page_data_controller.dart';
