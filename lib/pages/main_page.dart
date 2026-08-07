@@ -8,8 +8,6 @@ import '../widgets/movie_tile.dart';
 //Models
 import '../models/search_category.dart';
 import '../models/movie.dart';
-
-//Controllers
 import '../controllers/main_page_data_controller.dart';
 
 final mainPageDataControllerProvider =
