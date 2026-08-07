@@ -52,37 +52,7 @@ Whether you're a movie buff or a Flutter developer looking for a real-world proj
 - Dart SDK `>=3.0.0`
 - APi key TMDB
 - VS Code or Android Studio configured for Flutter
-
-## 📁 Project Structure
-
-```
-lib/
-├── core/
-│   ├── constants/          # API keys, base URLs, app-wide constants
-│   ├── theme/              # Custom app theme, fonts, colors
-│   └── utils/              # Helper functions, formatters
-├── data/
-│   ├── models/             # Movie, Genre, User data models
-│   ├── repositories/       # Data layer — API calls & caching
-│   └── services/           # HTTP service, auth service
-├── presentation/
-│   ├── providers/          # Riverpod providers
-│   ├── screens/            # Home, Search, Detail, Login screens
-│   └── widgets/            # Reusable UI components
-└── main.dart
-```
-
----
-
-## 📸 Screenshots
-
-| Splash | Home | Search | Detail |
-|--------|------|--------|--------|
-| ![Splash](screenshots/splash.png) | ![Home](screenshots/home.png) | ![Search](screenshots/search.png) | ![Detail](screenshots/detail.png) |
-
-> Add your own screenshots to the `/screenshots` directory.
-
----
+-
 
 ## 🔑 API Reference
 
