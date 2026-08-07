@@ -27,9 +27,9 @@ class _SplashPageState extends State<SplashPage> {
     final configData = jsonDecode(configFile);
     getit.registerSingleton<AppConfig>(
       AppConfig(
-        BASE_API_URl: configData("BASE_API_URl"),
-        BASE_IMAGE_URl: configData("BASE_IMAGE_URl"),
-        API_KEY: configData("API_KEY"),
+        BASE_API_URL: configData['BASE_API_URL'],
+        BASE_IMAGE_API_URL: configData['BASE_IMAGE_API_URL'],
+        API_KEY: configData['API_KEY'],
       ),
     );
   }
