@@ -54,9 +54,6 @@ Whether you're a movie buff or a Flutter developer looking for a real-world proj
 - VS Code or Android Studio configured for Flutter
 -
 
-## 🔑 API Reference
-
-This app uses the [TMDB REST API v3](https://developers.themoviedb.org/3).
 
 | Endpoint | Description |
 |----------|-------------|
@@ -81,18 +78,3 @@ This app uses the [TMDB REST API v3](https://developers.themoviedb.org/3).
 
 ---
 
-
-## 📄 License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
----
-
-## 🙏 Acknowledgements
-
-- [TheMovieDB](https://www.themoviedb.org/) for the incredible free API
-- [Flutter Riverpod](https://riverpod.dev/) for powerful state management
-
----
-
-<p align="center">Made with ❤️ and Flutter</p>
