@@ -50,43 +50,10 @@ Whether you're a movie buff or a Flutter developer looking for a real-world proj
 
 - Flutter SDK `>=3.0.0`
 - Dart SDK `>=3.0.0`
-- A free [TMDB API key](https://www.themoviedb.org/settings/api)
+- APi key TMDB
 - VS Code or Android Studio configured for Flutter
+-
 
-## 📁 Project Structure
-
-```
-lib/
-├── core/
-│   ├── constants/          # API keys, base URLs, app-wide constants
-│   ├── theme/              # Custom app theme, fonts, colors
-│   └── utils/              # Helper functions, formatters
-├── data/
-│   ├── models/             # Movie, Genre, User data models
-│   ├── repositories/       # Data layer — API calls & caching
-│   └── services/           # HTTP service, auth service
-├── presentation/
-│   ├── providers/          # Riverpod providers
-│   ├── screens/            # Home, Search, Detail, Login screens
-│   └── widgets/            # Reusable UI components
-└── main.dart
-```
-
----
-
-## 📸 Screenshots
-
-| Splash | Home | Search | Detail |
-|--------|------|--------|--------|
-| ![Splash](screenshots/splash.png) | ![Home](screenshots/home.png) | ![Search](screenshots/search.png) | ![Detail](screenshots/detail.png) |
-
-> Add your own screenshots to the `/screenshots` directory.
-
----
-
-## 🔑 API Reference
-
-This app uses the [TMDB REST API v3](https://developers.themoviedb.org/3).
 
 | Endpoint | Description |
 |----------|-------------|
@@ -111,18 +78,3 @@ This app uses the [TMDB REST API v3](https://developers.themoviedb.org/3).
 
 ---
 
-
-## 📄 License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
----
-
-## 🙏 Acknowledgements
-
-- [TheMovieDB](https://www.themoviedb.org/) for the incredible free API
-- [Flutter Riverpod](https://riverpod.dev/) for powerful state management
-
----
-
-<p align="center">Made with ❤️ and Flutter</p>
