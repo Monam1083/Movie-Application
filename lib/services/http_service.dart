@@ -1,5 +1,4 @@
 import '../models/app_config.dart';
-//Packages
 import 'package:dio/dio.dart';
 import 'package:get_it/get_it.dart';
 
