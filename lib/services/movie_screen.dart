@@ -1,6 +1,5 @@
 import 'package:get_it/get_it.dart';
 import 'package:dio/dio.dart';
-//Services
 import '../services/http_service.dart';
 
 //Models
