@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
-
-//Models
 import '../models/movie.dart';
 
 class MovieTile extends StatelessWidget {
