@@ -1,7 +1,6 @@
 import 'package:get_it/get_it.dart';
 import 'package:dio/dio.dart';
 import '../services/http_service.dart';
-
 //Models
 import '../models/movie.dart';
 
