@@ -1,4 +1,3 @@
-//Models
 import './movie.dart';
 import './search_category.dart';
 
