@@ -62,9 +62,7 @@ Whether you're a movie buff or a Flutter developer looking for a real-world proj
 | `GET /search/movie` | Search movies by query |
 | `GET /movie/{id}` | Get detailed info for a movie |
 | `POST /authentication/token/new` | Create auth request token |
-
 ---
-
 ## 🧠 Concepts Covered
 
 - ✅ Flutter REST API integration with error handling
