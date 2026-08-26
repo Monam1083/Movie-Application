@@ -10,7 +10,7 @@
 
 ---
 
-## 📱 Overview
+## Overview
 
 **Flickd** is a beautifully crafted movie discovery app powered by [TheMovieDB (TMDB) API](https://www.themoviedb.org/). Browse popular and upcoming films, search your favorites, and enjoy a cinema-grade experience — all built with clean, scalable Flutter architecture.
 
